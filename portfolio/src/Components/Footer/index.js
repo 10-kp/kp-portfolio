@@ -1,10 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from 'react-icons/ai';
+import { AiFillGithub, AiOutlineTwitter } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 
 function Footer() {
@@ -13,32 +9,32 @@ function Footer() {
   return (
     <Container fluid className='footer'>
       <Row>
-        <Col md='4' className='footer-copywright'>
+        <Col md='12' className='footer-copywright'>
           <h3>Designed and Developed by </h3>
         </Col>
-        <Col md='4' className='footer-copywright'>
+        <Col md='12' className='footer-copywright'>
           <h3>Copyright © {year} Kunal</h3>
         </Col>
-        <Col md='4' className='footer-body'>
+        <Col md='7' className='footer-body'>
           <ul className='footer-icons'>
-            <li className='social-icons'>
-              <a href='https://github.com/10-kp' style={{ color: 'white' }}>
+            <ul className='social-icons'>
+              <a href='https://github.com/10-kp' style={{ color: 'black' }}>
                 <AiFillGithub />
               </a>
-            </li>
-            <li className='social-icons'>
-              <a href='https://twitter.com/KP_83' style={{ color: 'white' }}>
+            </ul>
+            <ul className='social-icons'>
+              <a href='https://twitter.com/KP_83' style={{ color: 'black' }}>
                 <AiOutlineTwitter />
               </a>
-            </li>
-            <li className='social-icons'>
+            </ul>
+            <ul className='social-icons'>
               <a
                 href='https://www.linkedin.com/in/kunalkhetarpal/'
-                style={{ color: 'white' }}
+                style={{ color: 'black' }}
               >
                 <FaLinkedinIn />
               </a>
-            </li>
+            </ul>
           </ul>
         </Col>
       </Row>

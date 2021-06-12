@@ -1,0 +1,23 @@
+h2 {
+  font-family: var(--title-font);
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.light {
+  color: #f2f2f2;
+}
+
+.dark {
+  color: var(--black-color);
+}
+
+/* For smaller screens */
+@media only screen and (max-width: 768px) {
+  .mobile-page-title {
+    position: absolute;
+    top: 1.25rem;
+    right: 1rem;
+  }
+}
