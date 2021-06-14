@@ -18,11 +18,10 @@ class About extends Component {
           </Fade>
         </div>
         {data.ShowAboutImage ? (
-          <img src={data.aboutImage} alt='about iamge'></img>
+          <img src={data.aboutImage} alt='about image'></img>
         ) : null}
       </div>
     );
   }
 }
-
 export default About;
