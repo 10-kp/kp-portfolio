@@ -1,26 +1,34 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import Pic from '../Assets/kunal-pic.jpg';
 
 function About() {
   return (
     <Container fluid className='about-section'>
-      <Row style={{ justifyContent: 'center', padding: '10px' }}>
-        <Col
-          md={7}
-          style={{
-            justifyContent: 'center',
-            paddingTop: '30px',
-            paddingBottom: '50px',
-          }}
-        >
-          <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
-            Know Who <strong className='purple'>I'M</strong>
-          </h1>
-        </Col>
-      </Row>
+      <Container>
+        <Row style={{ justifyContent: 'center', padding: '10px' }}>
+          <Col
+            md={7}
+            style={{
+              justifyContent: 'center',
+              paddingTop: '30px',
+              paddingBottom: '50px',
+            }}
+          >
+            <h1>Something About Me</h1>
+            <img src={Pic} />
+            <h5>
+              I am a budding Web Developer with a Certificate in Full Stack Web
+              Deveopment Bootcamp Certificate Program from the University of
+              Oregon.
+            </h5>
+          </Col>
+        </Row>
+      </Container>
     </Container>
   );
 }
+
 export default About;
 
 // class About extends Component {
