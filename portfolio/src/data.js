@@ -1,6 +1,6 @@
 export default {
   name: 'Welcome!',
-  headerTagline: ['Hi, I am Kunal!', 'A full stack web developer'],
+  headerTagline: ['Hi, I am Kunal!', 'Welcome to my page'],
   contactEmail: 'kp_1@outlook.com',
   resume:
     'https://docs.google.com/document/d/1Ru-sJ7flEH7-rsOqHtAzzqLpuIsMyCES7iQPQAEbADo/edit?usp=sharing',

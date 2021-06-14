@@ -9,11 +9,11 @@ class Navbar extends Component {
     return (
       <nav>
         <ul>
-          <li>
+          <ul>
             <Link
               className='link'
               activeClass='active'
-              to='homw'
+              to='home'
               spy={true}
               smooth={true}
               offset={-70}
@@ -22,8 +22,8 @@ class Navbar extends Component {
             >
               Home
             </Link>
-          </li>
-          <li>
+          </ul>
+          <ul>
             <Link
               className='link'
               activeClass='active'
@@ -35,12 +35,12 @@ class Navbar extends Component {
             >
               About
             </Link>
-          </li>
-          <li>
+          </ul>
+          <ul>
             <Link
               className='link'
               activeClass='active'
-              to='work'
+              to='Portfolio'
               spy={true}
               smooth={true}
               offset={-70}
@@ -48,12 +48,12 @@ class Navbar extends Component {
             >
               Portfolio
             </Link>
-          </li>
-          <li>
+          </ul>
+          <ul>
             <Link
               className='link'
               activeClass='active'
-              to='contact'
+              to='Contact'
               spy={true}
               smooth={true}
               offset={-70}
@@ -61,7 +61,7 @@ class Navbar extends Component {
             >
               Contact
             </Link>
-          </li>
+          </ul>
         </ul>
       </nav>
     );

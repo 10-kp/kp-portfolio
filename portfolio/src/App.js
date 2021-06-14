@@ -1,39 +1,32 @@
-import React from 'react';
-import './App.css';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Header from './components/Header';
+import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
+import './App.css';
 
 function App() {
+  const [load, upadateLoad] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      upadateLoad(false);
+    }, 1200);
+  }, []);
+
   return (
     <Router>
-      <div className='App'>
+      <div className='App' id={load ? 'no-scroll' : 'scroll'}>
         <Navbar />
-        <div className='App-header'>
-          <Header />
-        </div>
         <Switch>
-          <Route path='/' exact component={About} />
+          <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />
-          <Route path='/project' component={Portfolio} />
-          <Route path='/resume' component={Contact} />
+          <Route path='/portfolio' component={Portfolio} />
+          <Route path='/contact' component={Contact} />
         </Switch>
-
-        {/* <div className='About'>
-        <About/>
-      </div> */}
-
-        {/* <div className='Portfolio'>
-        <Portfolio/>
-      </div> */}
-
-        {/* <div className='Contact'>
-        <Contact/>
-      </div> */}
       </div>
     </Router>
   );
