@@ -7,7 +7,7 @@ export default {
   abouttext:
     'I am a budding Web Developer with a Certificate in Full Stack Web Deveopment Bootcamp Certificate Program from the University of Oregon.',
 
-  projects: [
+  portfolio: [
     {
       id: 1,
       title: 'Employee Directory',
