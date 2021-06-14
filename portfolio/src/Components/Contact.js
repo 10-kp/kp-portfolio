@@ -20,11 +20,11 @@ class Contact extends Component {
             </a>
             <ul>
               {data.social.map((link, index) => (
-                <li key={index}>
+                <ul key={index}>
                   <a target='_blank' rel='noopener noreferrer' href={link.url}>
                     {link.name}
                   </a>
-                </li>
+                </ul>
               ))}
             </ul>
           </div>
