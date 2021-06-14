@@ -18,10 +18,10 @@ function App() {
       <div className='About'>
         <About></About>
       </div>
-      <div className='portfolio'>
+      <div className='Portfolio'>
         <Portfolio></Portfolio>
       </div>
-      <div className='contact'>
+      <div className='Contact'>
         <Contact></Contact>
       </div>
     </div>

@@ -21,7 +21,7 @@ class Resume extends Component {
               service={portfolio.service}
               imageSrc={portfolio.imageSrc}
               url={portfolio.url}
-            ></Portfolio>
+            />
           ))}
         </div>
       </div>
