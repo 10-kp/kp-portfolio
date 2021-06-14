@@ -16,7 +16,7 @@ function About() {
             }}
           >
             <h1>Something About Me</h1>
-            <img src={Pic} />
+            <img src={Pic} alt='profile-pic' />
             <h5>
               I am a budding Web Developer with a Certificate in Full Stack Web
               Deveopment Bootcamp Certificate Program from the University of
