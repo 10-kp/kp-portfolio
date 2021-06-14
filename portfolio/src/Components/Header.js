@@ -8,7 +8,6 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <h1 className='heading-background'>Kp</h1>
         <header>
           <h1>
             <Fade bottom cascade>

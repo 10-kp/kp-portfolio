@@ -1,5 +1,5 @@
 export default {
-  name: 'Kunal',
+  name: 'Welcome!',
   headerTagline: ['Hi, I am Kunal!', 'A full stack web developer'],
   contactEmail: 'kp_1@outlook.com',
   resume:
