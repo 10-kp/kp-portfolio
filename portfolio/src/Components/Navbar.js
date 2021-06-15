@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
-import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import {
   AiOutlineHome,
@@ -43,13 +42,13 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: '2px' }}
                 />{' '}
-                Projects
+                Contact
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to='/resume'
+                to='/portfolio'
                 onClick={() => updateExpanded(false)}
               >
                 <CgFile style={{ marginBottom: '2px' }} /> Portfolio
@@ -63,75 +62,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
-// import React, { Component } from 'react';
-// import { Link, animateScroll as scroll } from 'react-scroll';
-// class Navbar extends Component {
-//   state = {};
-//   scrollToTop = () => {
-//     scroll.scrollToTop();
-//   };
-//   render() {
-//     return (
-//       <nav>
-//         <ul>
-//           <ul>
-//             <Link
-//               className='link'
-//               activeClass='active'
-//               to='home'
-//               spy={true}
-//               smooth={true}
-//               offset={-70}
-//               duration={500}
-//               onClick={this.scrollToTop}
-//             >
-//               Home
-//             </Link>
-//           </ul>
-//           <ul>
-//             <Link
-//               className='link'
-//               activeClass='active'
-//               to='About'
-//               spy={true}
-//               smooth={true}
-//               offset={-70}
-//               duration={500}
-//             >
-//               About
-//             </Link>
-//           </ul>
-//           <ul>
-//             <Link
-//               className='link'
-//               activeClass='active'
-//               to='Portfolio'
-//               spy={true}
-//               smooth={true}
-//               offset={-70}
-//               duration={500}
-//             >
-//               Portfolio
-//             </Link>
-//           </ul>
-//           <ul>
-//             <Link
-//               className='link'
-//               activeClass='active'
-//               to='Contact'
-//               spy={true}
-//               smooth={true}
-//               offset={-70}
-//               duration={500}
-//             >
-//               Contact
-//             </Link>
-//           </ul>
-//         </ul>
-//       </nav>
-//     );
-//   }
-// }
-
-// export default Navbar;
