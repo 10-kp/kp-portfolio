@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import { AiFillEmail, AiFillGithub, AiOutlineTwitter } from 'react-icons/ai';
+import { AiOutlineMail, AiFillGithub, AiOutlineTwitter } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 
 function Contact() {
@@ -19,7 +19,7 @@ function Contact() {
                   target='_blank'
                   className='icon-colour home-social-icons'
                 >
-                  <AiFillEmail />
+                  <AiOutlineMail />
                 </a>
               </ul>
 
