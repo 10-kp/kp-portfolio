@@ -58,6 +58,6 @@ This application uses the following packages:
 
 ## Link
 
-You can see the link of this app [LINK]()
+You can see the link of this app [LINK](http://10-kp.github.io/kp-portfolio)
 
 You can view the GitHub here [GITHUB](https://github.com/10-kp/kp-portfolio)
