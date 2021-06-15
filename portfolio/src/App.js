@@ -6,7 +6,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
-import './App.css';
+import './index.css';
 
 function App() {
   const [load, upadateLoad] = useState(true);

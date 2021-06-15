@@ -15,7 +15,7 @@ function Contact() {
             <ul className='home-about-social-links'>
               <ul className='social-icons'>
                 <a
-                  href='kp_1@outlook.com'
+                  href='mailto: kp_1@outlook.com'
                   target='_blank'
                   className='icon-colour home-social-icons'
                 >
