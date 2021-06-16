@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,iDAGE,eACF","file":"main.87cedb35.chunk.css","sourcesContent":[".home-section,\n.about-section,\n.home-about-section {\n  margin-top: 15vh;\n}\n"]}
