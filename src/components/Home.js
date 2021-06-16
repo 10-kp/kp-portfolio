@@ -8,10 +8,8 @@ function Home() {
       <Container fluid className='home-section'>
         <Container className='home-content'>
           <Row>
-            <Col md={7} className='home-header'>
-              <h1 style={{ paddingBottom: 15 }} className='heading'>
-                Hi There!
-              </h1>
+            <Col md={10} className='home-header'>
+              <h1 className='heading'>Hi There!</h1>
 
               <h1 className='heading-name'>
                 I'M
@@ -20,7 +18,7 @@ function Home() {
 
               <h2 className='heading-name'>Welcome to my webpage</h2>
 
-              <div style={{ padding: 50, textAlign: 'left' }}>
+              <div style={{ padding: 25, textAlign: 'left' }}>
                 <Type />
               </div>
             </Col>

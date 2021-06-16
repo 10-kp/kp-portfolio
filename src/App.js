@@ -6,6 +6,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import './index.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path='/portfolio' component={Portfolio} />
           <Route path='/contact' component={Contact} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

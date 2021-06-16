@@ -1,18 +1,33 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
+import 'materialize-css/dist/css/materialize.min.css';
 import { AiOutlineMail, AiFillGithub, AiOutlineTwitter } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 
 function Contact() {
   return (
+    // <div className="uk-margin">
+    //             <label className="uk-form-label uk-text-muted" htmlFor="name">Name</label>
+    //             <div className="uk-form-controls">
+    //                 <input className="uk-input" id="name" type="text" placeholder="John Doe" ref={nameRef} />
+    //             </div>
+    //   </div>
+    // <div className="uk-margin">
+    // <label className="uk-form-label uk-text-muted" htmlFor="email">Email</label>
+    // <div className="uk-form-controls">
+    //     <input className="uk-input" id="email" type="text" placeholder="your@email.com" ref={emailRef} />
+    // </div>
+    // </div>
+
     <Container fluid className='home-about-section' id='about'>
       <Container>
         <Row>
-          <Col md={12} className='home-about-social'>
+          <Col md={4} className='home-about-social'>
             <p>Feel free to connect with me</p>
 
             <ul className='home-about-social-links'>
+              <h7>Email Me</h7>
               <ul className='social-icons'>
                 <a
                   href='mailto: kp_1@outlook.com'
@@ -24,6 +39,7 @@ function Contact() {
               </ul>
 
               <ul className='social-icons'>
+                <h7>My GitHub</h7>
                 <a
                   href='https://github.com/10-kp/'
                   target='_blank'
@@ -34,6 +50,7 @@ function Contact() {
                 </a>
               </ul>
               <ul className='social-icons'>
+                <h7>Tweet</h7>
                 <a
                   href='https://twitter.com/KP_83'
                   target='_blank'
@@ -44,8 +61,9 @@ function Contact() {
                 </a>
               </ul>
               <ul className='social-icons'>
+                <h7>linkedIn</h7>
                 <a
-                  href='https://www.linkedin.com/in/soumyajit4419/'
+                  href='https://www.linkedin.com/in/kunalkhetarpal'
                   target='_blank'
                   rel='noreferrer'
                   className='icon-colour  home-social-icons'
@@ -61,37 +79,3 @@ function Contact() {
   );
 }
 export default Contact;
-
-// class Contact extends Component {
-//   state = {};
-//   render() {
-//     return (
-//       <div>
-//         <h1>
-//           <Fade bottom cascade>
-//             {' '}
-//             Contact.
-//           </Fade>
-//         </h1>
-//         <Fade bottom>
-//           <div className='contact-content'>
-//             <a href={`mailto:${data.contactEmail}`} className='email'>
-//               {data.contactEmail}
-//             </a>
-//             <ul>
-//               {data.social.map((link, index) => (
-//                 <ul key={index}>
-//                   <a target='_blank' rel='noopener noreferrer' href={link.url}>
-//                     {link.name}
-//                   </a>
-//                 </ul>
-//               ))}
-//             </ul>
-//           </div>
-//         </Fade>
-//       </div>
-//     );
-//   }
-// }
-
-// export default Contact;
