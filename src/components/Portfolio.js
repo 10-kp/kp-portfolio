@@ -15,7 +15,7 @@ function Projects() {
       <Container>
         <h1 className='project-heading'>My Recent Projects</h1>
 
-        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+        <Row style={{ justifyContent: 'center', paddingBottom: '2px' }}>
           <Col md={4} className='project-card'>
             <ProjectCard
               imgPath={empdir}

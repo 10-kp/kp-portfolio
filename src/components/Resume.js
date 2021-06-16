@@ -15,7 +15,7 @@ class Resume extends Component {
         </h1>
         <div className='work-content'>
           {data.portfolio.map((portfolio) => (
-            <Porfolio
+            <Portfolio
               key={portfolio.id}
               title={portfolio.title}
               service={portfolio.service}

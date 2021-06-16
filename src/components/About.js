@@ -8,13 +8,13 @@ function About() {
   return (
     <Container fluid className='about-section'>
       <Container>
-        <Row style={{ justifyContent: 'center', padding: '2px' }}>
+        <Row style={{ justifyContent: 'center', padding: '20px' }}>
           <Col
-            md={9}
+            md={12}
             style={{
               justifyContent: 'center',
               paddingTop: '30px',
-              paddingBottom: '50px',
+              paddingBottom: '1px',
             }}
           >
             <h1>Something About Me</h1>
@@ -27,7 +27,22 @@ function About() {
             </h5>
           </Col>
         </Row>
-
+        <Col md={6}>
+          <ul>
+            Some of my Front-End skills
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>jQuery</li>
+          </ul>
+        </Col>
+        <Col md={6}>
+          <ul>
+            Some of my Back-End skills
+            <li>MySQL</li>
+            <li>APIs</li>
+            <li>JSON</li>
+          </ul>
+        </Col>
         <Row style={{ justifyContent: 'center', position: 'relative' }}>
           <h5>Check out my resume below.</h5>
           <Button
