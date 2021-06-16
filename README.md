@@ -15,7 +15,7 @@
 
 A online portfolio using React.
 
-![Screenshot]()
+![Screenshot](Assets/react-portfolio.png)
 
 ## Installation
 
