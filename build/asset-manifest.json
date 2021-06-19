@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/kp-portfolio/static/css/main.d42cd907.chunk.css",
-    "main.js": "/kp-portfolio/static/js/main.31a726b8.chunk.js",
-    "main.js.map": "/kp-portfolio/static/js/main.31a726b8.chunk.js.map",
+    "main.css": "/kp-portfolio/static/css/main.1c11355f.chunk.css",
+    "main.js": "/kp-portfolio/static/js/main.d171738e.chunk.js",
+    "main.js.map": "/kp-portfolio/static/js/main.d171738e.chunk.js.map",
     "runtime-main.js": "/kp-portfolio/static/js/runtime-main.0f1cb1a2.js",
     "runtime-main.js.map": "/kp-portfolio/static/js/runtime-main.0f1cb1a2.js.map",
     "static/css/2.8b36b6a6.chunk.css": "/kp-portfolio/static/css/2.8b36b6a6.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.3df932ea.chunk.js.map": "/kp-portfolio/static/js/3.3df932ea.chunk.js.map",
     "index.html": "/kp-portfolio/index.html",
     "static/css/2.8b36b6a6.chunk.css.map": "/kp-portfolio/static/css/2.8b36b6a6.chunk.css.map",
-    "static/css/main.d42cd907.chunk.css.map": "/kp-portfolio/static/css/main.d42cd907.chunk.css.map",
+    "static/css/main.1c11355f.chunk.css.map": "/kp-portfolio/static/css/main.1c11355f.chunk.css.map",
     "static/js/2.4d61ac81.chunk.js.LICENSE.txt": "/kp-portfolio/static/js/2.4d61ac81.chunk.js.LICENSE.txt",
     "static/media/budgetAppPic.06ecb086.png": "/kp-portfolio/static/media/budgetAppPic.06ecb086.png",
     "static/media/fitness-track.b5584514.png": "/kp-portfolio/static/media/fitness-track.b5584514.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.0f1cb1a2.js",
     "static/css/2.8b36b6a6.chunk.css",
     "static/js/2.4d61ac81.chunk.js",
-    "static/css/main.d42cd907.chunk.css",
-    "static/js/main.31a726b8.chunk.js"
+    "static/css/main.1c11355f.chunk.css",
+    "static/js/main.d171738e.chunk.js"
   ]
 }
